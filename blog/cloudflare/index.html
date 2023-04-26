@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>aadi.</title>
+  <link rel=stylesheet href=/css/main.css>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <span>[<a href="/">home.</a>]</span>
+      <span>[<a href="/blog">blog.</a>]</span>
+      <span>[<a href="/personal">personal.</a>]</span>
+      <span>[<a href="/links">links.</a>]</span>
+      <span>[<a href="/contact">contact.</a>]</span>
+    </nav>
+  </header>
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+	  getting https:&#x2F;&#x2F; for free.
+</h1>
+<p class="subtitle"><strong>2023-04-09</strong></p>
+<p>how to set up cloudflare for that shiny lockpad and https:// :) (for free.)</p>
+<!--more-->
+<p><code>(do note that this process is for a github-pages hosted site. you might need to configure sum else in other cases)</code></p>
+<p>prerequisites: </p>
+<ul>
+<li>a <a href="https://dash.cloudflare.com/">cloudflare</a> account (its free).</li>
+<li>a custom domain name. (you do have to pay for it unless you use something like .tk)</li>
+</ul>
+<h3 id="setting-up-cloudflare-nameservers">setting up cloudflare nameservers.</h3>
+<blockquote>
+<p>&quot;cloudflare is a company that provides a suite of services designed to improve the security, performance, and reliability of websites and internet applications.&quot;</p>
+</blockquote>
+<p>anyways so yeah i used cloudflare's free plan to enable https:// on this website.</p>
+<p>once you make a cloudflare account, you need to add your site to it.</p>
+<p>to do so, add your site by clicking on the button <code>add a site</code>.
+<img src="/img/cloudflare/addasite.png" alt="add a site" /></p>
+<p>after that, put in your site's url, and click on <code>add site</code>.
+<img src="/img/cloudflare/inputurl.png" alt="input ur url" /></p>
+<p>scroll down till you get the free plan, select it and then click on <code>continue</code>.
+<img src="/img/cloudflare/freeplanyay.png" alt="free plan yay" /></p>
+<p>confirm that the dns records are matching by heading over to your domain's registrar's dns records.
+<img src="/img/cloudflare/dnsrecords.png" alt="dns records" /></p>
+<p>after that click on continue and then complete the nameserver set up by following the steps given.</p>
+<p>you will have to change the nameservers provided by your domain registrar and replace them with the nameservers assigned by cloudflare.
+<img src="/img/cloudflare/nameservers.png" alt="nameservers" /></p>
+<p>once that is done, click on <code>check nameservers</code>.
+<img src="/img/cloudflare/check.png" alt="check nameservers" /></p>
+<p>it might take a while (around an hour) but you will recieve an email once the process is done. </p>
+<h3 id="ssl">ssl.</h3>
+<p>okay so you will have to select ssl/tls from the sidebar on the left.
+<img src="/img/cloudflare/sidebar.png" alt="sidebar" /></p>
+<p>and then in the overview, you'll have to make sure that the encryption mode is full.
+<img src="/img/cloudflare/encrypt.png" alt="encryption" /></p>
+<h3 id="woo-shiny-lockpad-1">woo shiny lockpad!1!</h3>
+<p>ayyy we now have this shiny little lockpad :)
+<img src="/img/cloudflare/lockpad.png" alt="lockpad" /></p>
+
+
+    </div>
+  </section>
+</body>
+
+</html>
