@@ -25,3 +25,51 @@ img {
 	margin: 1 auto;
 	max-width: 700px;
 }
+
+@media only screen and (max-width: 1700px) {
+	body {
+		max-width: 1000px;
+		margin: auto;
+	}
+
+	header {
+		border-bottom: 1px solid var(--fg-color);
+		margin: auto;
+		float: none;
+		text-align: center;
+	}
+
+
+	nav {
+		padding: 1px;
+		margin: 2px;
+	}
+}
+
+
+/** Second Media Query **/
+@media only screen and (max-width: 600px) {
+	body {
+		padding: 0.5em;
+		font-size: 85%;
+	}
+
+	header h1 {
+		font-size: 180%;
+	}
+
+	h1 {
+		font-size: 140%;
+	}
+
+	nav {
+		padding: 1px;
+		margin: 2px;
+		font-size: 70%;
+	}
+
+
+	main img {
+		max-width: 250px;
+	}
+}
