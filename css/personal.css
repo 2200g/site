@@ -3,6 +3,10 @@
     color: whitesmoke;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 h4 a {
     text-decoration: none;
 }
