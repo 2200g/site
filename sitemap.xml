@@ -7,6 +7,10 @@
         <loc>https://aadi.net.in/blog/</loc>
     </url>
     <url>
+        <loc>https://aadi.net.in/blog/ai/</loc>
+        <lastmod>2023-05-09</lastmod>
+    </url>
+    <url>
         <loc>https://aadi.net.in/blog/blog/</loc>
         <lastmod>2023-04-02</lastmod>
     </url>
@@ -31,6 +35,9 @@
     </url>
     <url>
         <loc>https://aadi.net.in/blog/page/2/</loc>
+    </url>
+    <url>
+        <loc>https://aadi.net.in/blog/page/3/</loc>
     </url>
     <url>
         <loc>https://aadi.net.in/blog/personalsites/</loc>
