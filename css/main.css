@@ -1,6 +1,7 @@
 * {
 	background-color: black;
 	color: whitesmoke;
+	margin: auto;
 }
 
 h1 {
@@ -48,6 +49,7 @@ img {
 		max-width: 240px;
 		max-height: 150px;
 		display: inline-block;
+		margin: auto;
     	}
 
 
