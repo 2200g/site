@@ -38,6 +38,7 @@ img {
 		margin: auto;
 	}
 
+
 	header {
 		border-bottom: 1px solid var(--fg-color);
 		margin: auto;
@@ -56,6 +57,13 @@ img {
 	nav {
 		padding: 1px;
 		margin: 2px;
+	}
+
+	#linkstoothers img{
+		height: 31px;
+		width: 88px;
+		padding: 20px;
+
 	}
 }
 
