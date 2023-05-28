@@ -22,13 +22,19 @@ nav span {
 }
 
 img {
-	display: block;
+	display: inline-block;
 	margin: 1 auto;
 	max-width: 700px;
 }
 
 
+footer {
+	text-align: center;
+}
 
+#logos {
+	display: inline-block;
+}
 
 
 
@@ -84,8 +90,7 @@ img {
 	#img-gallery img{
 		max-width: 60px;
 		display: none;
-		}			
-				    }
+		}						    
 
 	main img {
 		max-width: 250px;
