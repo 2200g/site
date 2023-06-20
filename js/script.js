@@ -4,7 +4,7 @@ function randomNumber(min, max) {
 
 function getRandomImage() {
 	    path = '/pics/'
-	    var num = randomNumber(1000, 1020);;
+	    var num = randomNumber(1000, 1021);;
 	    var img = path + num + '.jpg';
 	    return img;
 }
