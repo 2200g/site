@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 	    for(var i = 0; i < 3; i++){
 		    	var img = document.createElement("img");
 		    	img.src = getRandomImage();
+		    	img.alt = "random aesthetic pic";
 		    	gal.appendChild(img);
 		        }
 });
