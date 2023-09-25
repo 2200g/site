@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="aadi's blog where he rants about random things :) [linux, websites, personal life and more]">
+  <meta charset="utf-8">
+  <title>aadi.</title>
+  <link rel="preload" href="/css/main.css" as="style">
+  <link rel=stylesheet href=/css/main.css>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/imeuropa/JetBrainsMono-Webfont@main/JetBrainsMono/JetBrainsMono.css" defer async>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/js/script.js"></script>
+  <link rel="icon" type="image/png" href="/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <div id="img-gallery"></div>
+    <nav>
+      <span>[<a href="/">aadi.</a>]</span>
+      <span>[<a href="/blog">blog.</a>]</span>
+      <span>[<a href="/contact">contact.</a>]</span>
+      <span>[<a href="/personal">personal.</a>]</span>
+      <span>[<a href="/links">links.</a>]</span>
+    </nav>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      
+<h1 class="title">
+	selfhosted youtube. <hr>
+</h1>
+<p class="subtitle"><strong>2023-09-25</strong></p>
+<p>youtube-local</p>
+<span id="continue-reading"></span>
+<p><a href="https://github.com/user234683/youtube-local">youtube-local</a> is really cool service that allows you to self host your own instance of youtube.</p>
+<p>i have tried to install another popular self-hostable instance of youtube, a fork of this very project, <a href="https://git.sr.ht/~heckyel/yt-local">yt-local</a> but unfortunately, was unable to make the video player work for some reason.</p>
+<p>anyways regardless of that, it was very easy to install youtube-local on my system,</p>
+<hr />
+<pre data-lang="sh" style="background-color:#2b303b;color:#c0c5ce;" class="language-sh "><code class="language-sh" data-lang="sh"><span style="color:#bf616a;">git</span><span> clone https://github.com/user234683/youtube-local yt-local
+</span><span style="color:#96b5b4;">cd</span><span> yt-local
+</span><span>
+</span><span style="color:#bf616a;">python3 -m</span><span> venv env
+</span><span style="color:#96b5b4;">source</span><span> env/bin/activate
+</span><span style="color:#bf616a;">pip3</span><span> install</span><span style="color:#bf616a;"> -r</span><span> requirements.txt
+</span><span>
+</span><span style="color:#bf616a;">python3</span><span> server.py
+</span></code></pre>
+<hr />
+<p>making a .service file for systemd,</p>
+<hr />
+<pre data-lang="yaml" style="background-color:#2b303b;color:#c0c5ce;" class="language-yaml "><code class="language-yaml" data-lang="yaml"><span>[</span><span style="color:#a3be8c;">Unit</span><span>]
+</span><span style="color:#a3be8c;">Description=My Youtube
+</span><span>[</span><span style="color:#a3be8c;">Service</span><span>]
+</span><span style="color:#a3be8c;">ExecStart=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
+</span><span style="color:#a3be8c;">Exec=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
+</span><span style="color:#a3be8c;">ExecReload=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
+</span></code></pre>
+<hr />
+<p>and also setting up a redirect plugin to make everything youtube reroute to my instance of yt, using a firefox plugin called <a href="https://addons.mozilla.org/en-US/firefox/addon/redirector/">redirector</a>.</p>
+<hr />
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>^(https?://(?:[a-zA-Z0-9_-]*\.)?(?:youtube\.com|youtu\.be|youtube-nocookie\.com)/.*)
+</span></code></pre>
+<hr />
+<p>im currently having fun using this as,</p>
+<ul>
+<li>its very smooth</li>
+<li>it allowed me to import my subscriptions from <a href="https://newpipe.net/">newpipe</a></li>
+<li>it allows for customisability</li>
+</ul>
+<hr />
+<p>all that aside, im doing well, ive been studying hard :)
+cyall &lt;3 bai</p>
+
+
+    </div>
+  </section>
+  <footer> 
+  </footer>
+</body>
+
+</html>
