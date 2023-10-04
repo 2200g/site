@@ -52,10 +52,13 @@
 <hr />
 <pre data-lang="yaml" style="background-color:#2b303b;color:#c0c5ce;" class="language-yaml "><code class="language-yaml" data-lang="yaml"><span>[</span><span style="color:#a3be8c;">Unit</span><span>]
 </span><span style="color:#a3be8c;">Description=My Youtube
+</span><span>
 </span><span>[</span><span style="color:#a3be8c;">Service</span><span>]
 </span><span style="color:#a3be8c;">ExecStart=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
-</span><span style="color:#a3be8c;">Exec=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
 </span><span style="color:#a3be8c;">ExecReload=/home/aadi/.local/src/yt-local/env/bin/python /home/aadi/.local/src/yt-local/server.py
+</span><span>
+</span><span>[</span><span style="color:#a3be8c;">Install</span><span>]
+</span><span style="color:#a3be8c;">WantedBy=multi-user.target
 </span></code></pre>
 <hr />
 <p>and also setting up a redirect plugin to make everything youtube reroute to my instance of yt, using a firefox plugin called <a href="https://addons.mozilla.org/en-US/firefox/addon/redirector/">redirector</a>.</p>
