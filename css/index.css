@@ -171,25 +171,42 @@ body {
    and then subtrack it by 100. use this new number as the 
    "max-width" value below
    */
-   @media only screen and (max-width: 800px) {
-   #flex {
-   flex-wrap: wrap;
-   }
-   aside {
-   width: 100%;
-   }
-   /* the order of the items is adjusted here for responsiveness!
-   since the sidebars would be too small on a mobile device.
-   feel free to play around with the order!
-   */
-   #leftSide {
-   order: 1;
-   }
-   main {
-   order: 2;
-   }
-   #navbar ul {
-   flex-wrap: wrap;
-   }
+/* BELOW THIS POINT IS MEDIA QUERY */
+@media only screen and (max-width: 800px) {
+  #flex {
+    flex-wrap: wrap;
+  }
+  
+  aside {
+    width: 100%;
+  }
+
+  #leftSidebar {
+    order: 2;
+  }
+
+  main {
+    order: 1;
+  }
+
+  #navbar ul {
+    flex-wrap: wrap;
+  }
+
+  .image-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .image-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
    }
 
