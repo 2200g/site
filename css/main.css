@@ -1,101 +1,252 @@
-* {
-	font-display: swap;
-    font-family: monospace;
-	background-color: black;
-	color: whitesmoke;
-	margin: auto;
-    font-size: 15px;
-}
+            /* user styles */
 
-h1 {
-	font-size: 35px;
-}
+            /* styles are what change the color and sizes of stuff on your site. */
 
-nav {
-	padding: 5px;
-	margin: 10px;
-}
+            /* these are variables that are being used in the code
+    these tended to confuse some people, so I only kept 
+    the images as variables */
 
-nav a {
-	margin: 5px;
-}
+            :root {
+                --header-image: url('https://wallpapercave.com/wp/wp5504920.png');
+                --body-bg-image: url(/stars3.gif);
 
-nav span {
-	margin: 10px;
-}
+                /* colors */
+                --content: #0d0d0d;
+            }
 
-img {
-	display: inline-block;
-	margin: 1 auto;
-	max-width: 700px;
-}
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+            }
 
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+                font-weight: bold;
+            }
 
-footer {
-	text-align: center;
-}
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+                font-style: italic;
+            }
 
-#logos {
-	display: inline-block;
-}
+            @font-face {
+                font-family: Nunito;
+                src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+                font-style: italic;
+                font-weight: bold;
+            }
 
+            body {
+                font-family: 'Nunito', sans-serif;
+                margin: 0;
+                background-color: #08031A;
+                /* you can delete the line below if you'd prefer to not use an image */
+                background-size: 65px;
+                color: #fceaff;
+                background-image: var(--body-bg-image);
+            }
 
+            * {
+                box-sizing: border-box;
+            }
 
-@media only screen and (max-width: 1700px) {
-	body {
-		max-width: 1000px;
-		margin: auto;
-	}
+            /* below this line is CSS for the layout */
 
-
-	header {
-		border-bottom: 1px solid var(--fg-color);
-		margin: auto;
-		float: none;
-		text-align: center;
-	}
-
-	#img-gallery img{
-		max-width: 240px;
-		max-height: 150px;
-		display: inline-block;
-		margin: auto;
-    	}
+            /* this is a CSS comment
+    to uncomment a line of CSS, remove the * and the /
+    before and after the text */
 
 
-	nav {
-		padding: 1px;
-		margin: 2px;
-	}
-}
+            /* the "container" is what wraps your entire website */
+            /* if you want something (like the header) to be Wider than
+    the other elements, you will need to move that div outside
+    of the container */
+            #container {
+                max-width: 900px;
+                /* this is the width of your layout! */
+                /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
+                margin: 0 auto;
+                /* this centers the entire page */
+            }
+
+            /* the area below is for all links on your page
+    EXCEPT for the navigation */
+            #container a {
+                color: #1A1A1A;
+                font-weight: bold;
+                /* if you want to remove the underline
+      you can add a line below here that says:
+      text-decoration:none; */
+            }
+
+            #header {
+                width: 100%;
+                background-color: #1A1A1A;
+                /* header color here! */
+                height: 150px;
+                /* this is only for a background image! */
+                /* if you want to put images IN the header, 
+      you can add them directly to the <div id="header"></div> element! */
+                background-image: var(--header-image);
+                background-size: 100%;
+            }
+
+            /* navigation section!! */
+            #navbar {
+                height: 40px;
+                background-color: #000;
+                /* navbar color */
+                width: 100%;
+            }
+
+            #navbar ul {
+                display: flex;
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+
+            #navbar li {
+                padding-top: 10px;
+            }
+
+            /* navigation links*/
+            #navbar li a {
+                color: #d4d4d4;
+                /* navbar text color */
+                font-weight: 800;
+                text-decoration: none;
+                /* this removes the underline */
+            }
+
+            /* navigation link when a link is hovered over */
+            #navbar li a:hover {
+                color: #a49cba;
+                text-decoration: underline;
+            }
+
+            #flex {
+                display: flex;
+            }
+
+            /* this colors BOTH sidebars
+    if you want to style them separately,
+    create styles for #leftSidebar and #rightSidebar */
+            aside {
+                background-color: #241445;
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+                /* this makes the sidebar text slightly smaller */
+            }
 
 
-/** Second Media Query **/
-@media only screen and (max-width: 600px) {
-	body {
-		padding: 0.5em;
-		font-size: 85%;
-	}
+            /* this is the color of the main content area,
+    between the sidebars! */
+            main {
+                background-color: #43256E;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+            }
 
-	header h1 {
-		font-size: 180%;
-	}
+            /* what's this "order" stuff about??
+    allow me to explain!
+    if you're using both sidebars, the "order" value
+    tells the CSS the order in which to display them.
+    left sidebar is 1, content is 2, and right sidebar is 3! */
 
-	h1 {
-		font-size: 140%;
-	}
+            */ #leftSidebar {
+                order: 1;
+            }
 
-	nav {
-		padding: 1px;
-		margin: 2px;
-		font-size: 70%;
-	}
-	#img-gallery img{
-		max-width: 60px;
-		display: none;
-		}						    
+            #rightSidebar {
+                order: 3;
+            }
 
-	main img {
-		max-width: 250px;
-	}
-}
+            footer {
+                background-color: #000D;
+                /* background color for footer */
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+                /* this centers the footer text */
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: #ED64F5;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            strong {
+                /* this styles bold text */
+                color: #ED64F5;
+            }
+
+            /* this is just a cool box, it's the darker colored one */
+            .box {
+                background-color: #13092D;
+                border: 1px solid #ED64F5;
+                padding: 10px;
+            }
+
+            /* CSS for extras */
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+
+            /* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 900px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 800px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+
