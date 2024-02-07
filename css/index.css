@@ -151,12 +151,18 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  :root {
+     word-break: break-all;
+    overflow-wrap: break-word;  
+      display: block;
+  }
   img {
-    max-width: 640px;
+    max-width: 320px;
     height: auto;
   }
 
   #flex {
+        max-width: 640px;
         flex-wrap: wrap;
     }
 
@@ -169,7 +175,10 @@ body {
     }
 
     main {
-        order: 1;
+      overflow-wrap: break-word;
+      padding: 0;
+      max-width: 640px;  
+      order: 1;
     }
 
     #navbar ul {
