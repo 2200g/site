@@ -3,6 +3,8 @@
     --body-bg-image: url('/stars3.gif'); /* credit sadgrl.online */
     --content: #0B0B0B;
 }
+
+
 a {
   color: white;
 }
@@ -160,6 +162,16 @@ body {
     max-width: 320px;
     height: auto;
   }
+
+
+.HyperMD-codeblock.cm-line:not(.cm-active)
+, code
+, pre
+{
+  align-items: left;
+  max-width: 320px;
+    overflow-x: scroll;
+}
 
   #flex {
         max-width: 640px;
