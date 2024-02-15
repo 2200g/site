@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>aadi.</title>
+    <subtitle>aadi&#x27;s personal site &lt;3</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://aadi.net.in/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://aadi.net.in"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-02-07T00:00:00+00:00</updated>
+    <id>https://aadi.net.in/atom.xml</id>
+    <entry xml:lang="en">
+        <title>7th feb</title>
+        <published>2024-02-07T00:00:00+00:00</published>
+        <updated>2024-02-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/7thfeb24/"/>
+        <id>https://aadi.net.in/personal/7thfeb24/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/7thfeb24/">&lt;p&gt;yes so i changed up the entire theme of the website (thanks &lt;a href=&quot;https:&#x2F;&#x2F;ayush.pro&quot;&gt;ayush&lt;&#x2F;a&gt; c: )&lt;&#x2F;p&gt;
+&lt;p&gt;oh yeha i also have a public gpg up: &lt;a href=&quot;https:&#x2F;&#x2F;aadi.net.in&#x2F;key.gpg.pub&quot;&gt;public.gpg&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;i think it looks good and i implemented mobile support too yep anyways uh ok&lt;&#x2F;p&gt;
+&lt;p&gt;oh yeah i have also somehow reached 1k viewers - that makes me happy&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;site&#x2F;assets&#x2F;76528474&#x2F;5f1ada32-b4cb-4a72-8da3-c9a30d6357d8&quot; alt=&quot;image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;so therefore i shall now also put up a buymeacoffee and a XMR yes ok &lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;XMR: 8AvrcZgpBqD7CXkajaLBku5mdjGsdRs9mc2comiJxY2ngDMFWGj6SzuDL5gDUTYVJh8ZjCG2Y2B5HEkBVNcf8mVq895Yb3r &lt;&#x2F;li&gt;
+&lt;li&gt;buymeacoffee: &lt;a href=&quot;https:&#x2F;&#x2F;www.buymeacoffee.com&#x2F;aadi.net.in&quot;&gt;https:&#x2F;&#x2F;www.buymeacoffee.com&#x2F;aadi.net.in&lt;&#x2F;a&gt; &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;yes ok bye stay safe yall&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>feeling substandard and other things.</title>
+        <published>2024-01-07T00:00:00+00:00</published>
+        <updated>2024-01-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/feeling-substandard/"/>
+        <id>https://aadi.net.in/blog/feeling-substandard/</id>
+        
+        <summary type="html">&lt;p&gt;title yes haha ok yes&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>31st dec</title>
+        <published>2023-12-31T00:00:00+00:00</published>
+        <updated>2023-12-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/31stdec/"/>
+        <id>https://aadi.net.in/personal/31stdec/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/31stdec/">&lt;p&gt;hi all its the 31st of dec and its liek 11:57 rn and i wish everyone a happy new year and like hope everyone gets to end up doing their goals and all&lt;&#x2F;p&gt;
+&lt;p&gt;have a safe and nice year&lt;&#x2F;p&gt;
+&lt;p&gt;baii c:&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>the 28th of decemeber i think</title>
+        <published>2023-12-28T00:00:00+00:00</published>
+        <updated>2023-12-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/dec2923/"/>
+        <id>https://aadi.net.in/personal/dec2923/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/dec2923/">&lt;p&gt;hi all&lt;&#x2F;p&gt;
+&lt;p&gt;idk why i havent updated in so so long but i guess its only fair if i do so now&lt;&#x2F;p&gt;
+&lt;p&gt;a lot has changed -- i shifted the site from github pages to my own rpi0w. now if the site is down i suppose its due to fault on my end but o welp 
+im not sure why i did that but yeah was a fun experience&lt;&#x2F;p&gt;
+&lt;p&gt;i made a file server for myself using &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;filebrowser&#x2F;filebrowser&quot;&gt;filebrowser&lt;&#x2F;a&gt; its really neat and minimal and cool and works somewhat perfectly(?) on the rpi.&lt;&#x2F;p&gt;
+&lt;p&gt;i had family visiting and was somewhat occupied and all i guess.&lt;&#x2F;p&gt;
+&lt;p&gt;oh yeah i have also started using this cool ncurses program for spotify called &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;hrkfdn&#x2F;ncspot&#x2F;&quot;&gt;ncspot&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;drives.sh&#x2F;assets&#x2F;76528474&#x2F;7c40071d-2107-441c-9f21-4427a93d9de9&quot; alt=&quot;ncspot ss&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;drives.sh&#x2F;assets&#x2F;76528474&#x2F;d69c60dc-16b1-4c79-90f2-47ecfc861882&quot; alt=&quot;ncspot ss&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;drives.sh&#x2F;assets&#x2F;76528474&#x2F;78871bce-ba38-4cc8-b9c6-c1e21012b13c&quot; alt=&quot;ncspot ss&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;i really love it -- i did try &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Rigellute&#x2F;spotify-tui&quot;&gt;spotify-tui&lt;&#x2F;a&gt;, another popular name in the spotify cli userspace but uh it was really slow for me and i couldnt figure out why so i gave up on it :&#x2F;&lt;&#x2F;p&gt;
+&lt;p&gt;studies havent been going well unfortunately im afraid, im like totally not meeting the expectations i have of myself but uh yeah im trying to become better &lt;&#x2F;p&gt;
+&lt;p&gt;anyways a very merry christmas to everyone (even though im like 3 days late) and i hope you all have a goood year the upcoming year.
+thansks a lot for reading all this and cyall bye :)&lt;&#x2F;p&gt;
+&lt;p&gt;( PS follow my spotify @ &lt;a href=&quot;https:&#x2F;&#x2F;aadi.net.in&#x2F;spotify&quot;&gt;&#x2F;spotify&lt;&#x2F;a&gt; c: )&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>hi it&#x27;s november 5</title>
+        <published>2023-11-05T00:00:00+00:00</published>
+        <updated>2023-11-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/nov05/"/>
+        <id>https://aadi.net.in/personal/nov05/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/nov05/">&lt;p&gt;the year is almost over
+like that is so unbelievable like just how quickly can year pass by, but then again it wasnt not really quick, rather it was somewhat trying. i have no idea as to what i am trying to say here, but yeah id describe the year going by as a rollercoaster i suppose, few parts went by quick but then again few parts went as slow as a turtle&lt;&#x2F;p&gt;
+&lt;p&gt;currently there are just 56 days for the year to end and like just yeah&lt;&#x2F;p&gt;
+&lt;p&gt;anyways a quick update like not really but yes
+im doing more or less decent, and i uh recently took a break from studies and such and went to this other city and it was somewhat fun id say, though i did try my best to study there like but it wasnt up to standards like yeah
+ive noticed on a couple of days its like i am stuck in this room in one corner on the desk studying and sleeping and wasting time and stuff like its getting stale? stagnant? idk really but yes&lt;&#x2F;p&gt;
+&lt;p&gt;oh yeah recently this friend of mine from coaching challenged me in a test and i ended up winning so now he owes me a pizza i do not know if i have already mentioned this on the site but yes it happened quite recently so idk&lt;&#x2F;p&gt;
+&lt;p&gt;um also yes like recently nta delted a bunch of the jee-mains syllabus so i expect the competition for it to increase even more this year and on 2025 aa so yes most people are happy that they removed allat but i suppose they should look at it from a diff viewpoint &lt;&#x2F;p&gt;
+&lt;p&gt;i think this is the first time ive written as much as this on the site&#x2F;personal thingy but yeah i kinda feel bad tbh like i dont think i actually behave as myself in my posts and that really defeats the entire point of this website 
+i&#x27;ll try to improve that now onwards&lt;&#x2F;p&gt;
+&lt;p&gt;class 11 has pretty much ended and thats so weird to think about cuz it wasnt even that long ago when it started and like yeah i havent even been to school much like pretty much go for like 1 or 2 days and that kinda makes me feel somewhat detached from school which is weird i suppose i do not know&lt;&#x2F;p&gt;
+&lt;p&gt;anyways yes bye 
+also so much so for shop.aadi.net.in but hopefully one day when im successful and all ill be able to sell my autographs from there and like make a buck ton of money that would be cool yesyes&lt;&#x2F;p&gt;
+&lt;p&gt;ok yes bye stay safe :) &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>selfhosted youtube.</title>
+        <published>2023-09-25T00:00:00+00:00</published>
+        <updated>2023-09-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/youtube/"/>
+        <id>https://aadi.net.in/blog/youtube/</id>
+        
+        <summary type="html">&lt;p&gt;youtube-local&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>1st of september</title>
+        <published>2023-09-01T00:00:00+00:00</published>
+        <updated>2023-09-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/sept123/"/>
+        <id>https://aadi.net.in/personal/sept123/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/sept123/">&lt;p&gt;i dont really know how much of this is true, but this is absolutely amazing.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;site&#x2F;assets&#x2F;76528474&#x2F;27c665cb-4fc1-4b68-8236-9200c24fc307&quot; alt=&quot;image cloudflare analytics&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;i cant believe that like over 700 ppl have visited my site (once again, pretty sure it isnt completely true id estimate that around 10 humans have)
+but yes i never really expected to have someone read through the site and thats pretty cool yesyes&lt;&#x2F;p&gt;
+&lt;p&gt;ok bai&lt;&#x2F;p&gt;
+&lt;p&gt;oh and i should thank everyone who has&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>29th aug</title>
+        <published>2023-08-29T00:00:00+00:00</published>
+        <updated>2023-08-29T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/29aug/"/>
+        <id>https://aadi.net.in/personal/29aug/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/29aug/">&lt;p&gt;hello yes
+i have made obsidian look prettier and i yes its so good looking waaooowwww
+&lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;site&#x2F;assets&#x2F;76528474&#x2F;e2bfc941-35ee-440f-be4f-65ed5a3785cd&quot; alt=&quot;image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;ive been rather bored as of late but o welp&lt;&#x2F;p&gt;
+&lt;p&gt;also my half-yearlys are going on aha and yeah thats pretty much it.&lt;&#x2F;p&gt;
+&lt;p&gt;ive also made it so that my obsidian thing magicky gets backed up on git and thats pretty cool i guess and i can also use the git repo to make it accessible via obsidian mobile i guess lets see.&lt;&#x2F;p&gt;
+&lt;p&gt;oh speaking about phones, i have pretty much cut off social media and stuff so thats good and all yesyes&lt;&#x2F;p&gt;
+&lt;p&gt;im also using a habit tracker to take care of myself!1! idk yes okok bye :)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>my daily life and stuff.</title>
+        <published>2023-08-25T00:00:00+00:00</published>
+        <updated>2023-08-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/dailylife/"/>
+        <id>https://aadi.net.in/blog/dailylife/</id>
+        
+        <summary type="html">&lt;p&gt;daily routine stuff.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>cute e-shops.</title>
+        <published>2023-07-26T00:00:00+00:00</published>
+        <updated>2023-07-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/cuteshop/"/>
+        <id>https://aadi.net.in/blog/cuteshop/</id>
+        
+        <summary type="html">&lt;p&gt;cute e-commerce shops.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>23-07-23</title>
+        <published>2023-07-23T00:00:00+00:00</published>
+        <updated>2023-07-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/23-07-23/"/>
+        <id>https://aadi.net.in/personal/23-07-23/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/23-07-23/">&lt;p&gt;ee idk what i should use as a title so i shall just have it as the date for now.&lt;&#x2F;p&gt;
+&lt;p&gt;i havent really been using my computer a whole lot in a while, i dont really have much to do nowadays on it anyways. &lt;&#x2F;p&gt;
+&lt;p&gt;though, recently i have been falling down the rabbit hole of 90s styled stuff, i found an old handycam and ive been trying to make it work properly - it even records on a tape and all and its all very fascinating to me. i also started using this old camera i found which really makes me appreciate the beauty of stuff from the 1990s and 2000s. now almost everything is doable from a slim boring flashy phone.&lt;&#x2F;p&gt;
+&lt;p&gt;ive also been experimenting w&#x2F; the chicago95 xfce theme - it really is a work of art like idk something ab things from that period of time just feels right, even though i wasnt even alive back then. &lt;&#x2F;p&gt;
+&lt;p&gt;im planning to try to make this really old boxkinda computer we have packed up tmrw or sum lets see i shall make a post here accordingly idk.&lt;&#x2F;p&gt;
+&lt;p&gt;anyways okay bye :)) &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>mangal.</title>
+        <published>2023-07-09T00:00:00+00:00</published>
+        <updated>2023-07-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/mangal/"/>
+        <id>https://aadi.net.in/blog/mangal/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;metafates&#x2F;mangal&quot;&gt;mangal&lt;&#x2F;a&gt; - the perfect cli manga downloader :)&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>june 23</title>
+        <published>2023-07-09T00:00:00+00:00</published>
+        <updated>2023-07-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/june23/"/>
+        <id>https://aadi.net.in/personal/june23/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/june23/">&lt;p&gt;june went by pretty fast and so has this third of july but yes anyways.&lt;&#x2F;p&gt;
+&lt;p&gt;not that anyone cares but i did not post a whole lot of stuff in june - i was busy most of the time.&lt;&#x2F;p&gt;
+&lt;p&gt;i had my summer vacation for like three weeks and yea i studied pretty much the entire time aha - its fun for me tho.&lt;&#x2F;p&gt;
+&lt;p&gt;i made a couple of new friends irl and found out one of ems actually nice and ye&lt;&#x2F;p&gt;
+&lt;p&gt;ive also been playing throwball a lot and not to toot my own horn but i am actually pretty insane at throwball :)))&lt;&#x2F;p&gt;
+&lt;p&gt;im planning to write a blog post on something a teacher once told me about personalities and originality which ended up being pretty deep once i realised the significance of her words. &lt;&#x2F;p&gt;
+&lt;p&gt;as for july, i am planning to like uh do good yesyes &lt;&#x2F;p&gt;
+&lt;p&gt;oka beyebeyebeye &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ricing linux.</title>
+        <published>2023-06-17T00:00:00+00:00</published>
+        <updated>2023-06-17T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/ricinglinux/"/>
+        <id>https://aadi.net.in/blog/ricinglinux/</id>
+        
+        <summary type="html">&lt;p&gt;how i got into linux rices and how to get a similar set-up.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>the blissful art of note-making</title>
+        <published>2023-06-01T00:00:00+00:00</published>
+        <updated>2023-06-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/notemaking/"/>
+        <id>https://aadi.net.in/blog/notemaking/</id>
+        
+        <summary type="html">&lt;p&gt;note making.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>may summary.</title>
+        <published>2023-05-28T00:00:00+00:00</published>
+        <updated>2023-05-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/may23summary/"/>
+        <id>https://aadi.net.in/personal/may23summary/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/may23summary/">&lt;p&gt;the months not over yet but might as well sum up what i did this month.&lt;&#x2F;p&gt;
+&lt;p&gt;i uh made two utility scripts - without just skidding off of other people.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;drives.sh&quot;&gt;drives.sh&lt;&#x2F;a&gt; -- a command line utility that helps users mount new ext4 drives.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;2200g&#x2F;notes.sh&quot;&gt;notes.sh&lt;&#x2F;a&gt; -- a simple note making cli tool.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;idk why but i am somewhat proud of myself for making them anyways yes.&lt;&#x2F;p&gt;
+&lt;p&gt;i also uh studied quite a bit, got put into a coaching institute like one week ago and so far its going pretty well - i do have a lot to catch up on tho.&lt;&#x2F;p&gt;
+&lt;p&gt;i also had exams this week - was pretty decent and uh yeah my summer vacations about to start, 22 days of not going to school. {i dont get a vacation from coaching :&#x27;)} schools fun tho so eh.&lt;&#x2F;p&gt;
+&lt;p&gt;one thing w all that tho is that i am not able to study by myself at home like i used to, kind of a bummer cuz that was probably the only time i studied properly but ye ill fix something up okok&lt;&#x2F;p&gt;
+&lt;p&gt;next month, i am hoping to uh get physically active more- idk my current bmi is 22.7 and thats kinda decent and also uh learn how to drive idk ok bye &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>the problem w artificial intelligence.</title>
+        <published>2023-05-09T00:00:00+00:00</published>
+        <updated>2023-05-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/ai/"/>
+        <id>https://aadi.net.in/blog/ai/</id>
+        
+        <summary type="html">&lt;p&gt;a 15yo pcm student&#x27;s thoughts and opinions on ai.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>why to take a break.</title>
+        <published>2023-05-06T00:00:00+00:00</published>
+        <updated>2023-05-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/stuff/"/>
+        <id>https://aadi.net.in/personal/stuff/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/stuff/">&lt;p&gt;okay so to concentrate on important things, you sometimes have to let go of other things, that may not seem as significant as the important thing.&lt;&#x2F;p&gt;
+&lt;p&gt;its really important to manage your time properly and accordingly give specific amounts of time for one task.&lt;&#x2F;p&gt;
+&lt;p&gt;quitting a game like minecraft is really hard, as you sometimes develop somewhat of a connection w the people you play with or even the game itself. even though it sometimes gets repetitive, it really is fun to play. &lt;&#x2F;p&gt;
+&lt;p&gt;i have quit minecraft for a bit a couple of times and everytime i return to it, the feeling is exhilarating. i have fun doing the same old thing again and remembering certain events and that makes it all the more enjoyable to me.&lt;&#x2F;p&gt;
+&lt;p&gt;but, doing the same thing over and over again gets really boring and you just play for the sake of it, not just cuz ure having fun. you just spend hours and hours grinding for stats that dont even matter much. &lt;&#x2F;p&gt;
+&lt;p&gt;im not saying that the game sucks, or is dead, but that to truly enjoy yourself you have to sometimes take a step back, and just stop playing. instead, focus on other things, till you start craving for the game once again. only then it is possible to truly enjoy the beauty of a game like minecraft.&lt;&#x2F;p&gt;
+&lt;p&gt;ok bai.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>the need for a personal website.</title>
+        <published>2023-04-30T00:00:00+00:00</published>
+        <updated>2023-04-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/personalsites/"/>
+        <id>https://aadi.net.in/blog/personalsites/</id>
+        
+        <summary type="html">&lt;p&gt;my opinions on why a personal website is needed.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>new may&#x27;s resolution.</title>
+        <published>2023-04-30T00:00:00+00:00</published>
+        <updated>2023-04-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/newmaysresolution/"/>
+        <id>https://aadi.net.in/personal/newmaysresolution/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/newmaysresolution/">&lt;p&gt;tomorrow&#x27;s a new month and yeah i intend on trying to fix my life up. &lt;&#x2F;p&gt;
+&lt;p&gt;i just got into class 11 - and as a science student, the next two years are going to be very important in my life.&lt;&#x2F;p&gt;
+&lt;p&gt;india&#x27;s education system is really messed up, in my opinion, but i&#x27;ll rant more on that later.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>idk.</title>
+        <published>2023-04-26T00:00:00+00:00</published>
+        <updated>2023-04-26T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/personal/idk-bro/"/>
+        <id>https://aadi.net.in/personal/idk-bro/</id>
+        
+        <content type="html" xml:base="https://aadi.net.in/personal/idk-bro/">&lt;p&gt;idk what im going to be talking about here- im planning to be a journal of sorts- but yeah lets see.&lt;&#x2F;p&gt;
+&lt;p&gt;hopefully i wont accidentally dox myself.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>shifting to zola.</title>
+        <published>2023-04-22T00:00:00+00:00</published>
+        <updated>2023-04-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/zola/"/>
+        <id>https://aadi.net.in/blog/zola/</id>
+        
+        <summary type="html">&lt;p&gt;zola is this really nice ssg i found, similar to hugo, but written in rust.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>getting https:&#x2F;&#x2F; for free.</title>
+        <published>2023-04-09T00:00:00+00:00</published>
+        <updated>2023-04-09T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/cloudflare/"/>
+        <id>https://aadi.net.in/blog/cloudflare/</id>
+        
+        <summary type="html">&lt;p&gt;how to set up cloudflare for that shiny lockpad and https:&#x2F;&#x2F; :) (for free.)&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>random stuff.</title>
+        <published>2023-04-06T00:00:00+00:00</published>
+        <updated>2023-04-06T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/randomthings/"/>
+        <id>https://aadi.net.in/blog/randomthings/</id>
+        
+        <summary type="html">&lt;p&gt;uhhh random stuff yesyes.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>bored of etch.</title>
+        <published>2023-04-04T00:00:00+00:00</published>
+        <updated>2023-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/boredofetch/"/>
+        <id>https://aadi.net.in/blog/boredofetch/</id>
+        
+        <summary type="html">&lt;p&gt;me going thru phases&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>discord servers.</title>
+        <published>2023-04-04T00:00:00+00:00</published>
+        <updated>2023-04-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/discordservers/"/>
+        <id>https://aadi.net.in/blog/discordservers/</id>
+        
+        <summary type="html">&lt;p&gt;a list of discord servers that you should be in.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>brutalism.</title>
+        <published>2023-04-03T00:00:00+00:00</published>
+        <updated>2023-04-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/brutalism/"/>
+        <id>https://aadi.net.in/blog/brutalism/</id>
+        
+        <summary type="html">&lt;p&gt;i talk about brutalism!! :)))&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>blog.</title>
+        <published>2023-04-02T00:00:00+00:00</published>
+        <updated>2023-04-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://aadi.net.in/blog/blog/"/>
+        <id>https://aadi.net.in/blog/blog/</id>
+        
+        <summary type="html">&lt;p&gt;a blog. &lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
