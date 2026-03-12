@@ -1,22 +1,23 @@
-* {
-    background-color: black;
-    color: whitesmoke;
+/* personal.css — overrides for the /personal section */
+body {
+  background-color: black;
+  color: whitesmoke;
 }
 
 h1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 h4 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-@media (max-width:1000px) {
-    body {
-        font-size: 90%;
-    }
+@media (max-width: 1000px) {
+  body {
+    font-size: 90%;
+  }
 
-    img {
-        max-width: 260px;
-    }
+  img {
+    max-width: 260px;
+  }
 }

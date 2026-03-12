@@ -1,212 +1,240 @@
-   /* user styles */
-   /* styles are what change the color and sizes of stuff on your site. */
-   /* these are variables that are being used in the code
-   these tended to confuse some people, so I only kept 
-   the images as variables */
-   :root {
-   --header-image: url('/banner.png'); /*credit https://yveslayouts.tumblr.com/post/142932034185/harry-styles-kendall-jenner-layouts%EF%BE%9F */
-   --body-bg-image: url('/stars3.gif'); /* credit sadgrl.online */
-   /* colors */
-   --content: #0B0B0B;
-   }
- .image-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100%;
-  width: 600px; /* Adjust the width as needed */
-}
-.image-container img {
-  max-width: 30%; /* Adjust the width as needed */
-  max-height: 200px; /* Adjust the height as needed */
+/* ============================================================
+   Variables
+   ============================================================ */
+:root {
+  --header-image: url('/banner.png');   /* credit https://yveslayouts.tumblr.com */
+  --body-bg-image: url('/stars3.gif'); /* credit sadgrl.online */
+  --bg: #08031A;
+  --surface: #0B0B0B;
+  --text: #FFFFFF;
+  --container-width: 900px;
+  --sidebar-width: 200px;
+  --navbar-height: 40px;
+  --header-height: 245px;
 }
 
+/* ============================================================
+   Reset
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-   
+/* ============================================================
+   Base
+   ============================================================ */
+html, body {
+  height: 100%;
+}
+
 body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg);
+  background-image: var(--body-bg-image);
+  background-size: 65px;
+  color: var(--text);
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  background-color: #08031A;
-  background-size: 65px;
-  color: #FFFFFF;
-  background-image: var(--body-bg-image);
+  align-items: flex-start;
+  min-height: 100vh;
 }
-   * {
-   box-sizing: border-box;
-   }
-   #container {
-   max-width: 900px;
-   /* this is the width of your layout! */
-   /* if you change the above value, scroll to the bottom
-   and change the media query according to the comment! */
-   margin: 0 auto;
-   /* this centers the entire page */
-   }
-   /* the area below is for all links on your page
-   EXCEPT for the navigation */
-   #container a {
-   color: #FFFFFF;
-   font-weight: bold;
-   /* if you want to remove the underline
-   you can add a line below here that says:
-   text-decoration:none; */
-   }
-   #header {
-   width: 100%;
-   background-color: #0B0B0B;
-   /* header color here! */
-   height: 245px;
-   /* this is only for a background image! */
-   /* if you want to put images IN the header, 
-   you can add them directly to the 
-   <div id="header"></div>
-   element! */
-   background-image: var(--header-image);
-   background-size: 100%;
-   }
-   /* navigation section!! */
-   #navbar {
-   height: 40px;
-   background-color: #0B0B0B;
-   /* navbar color */
-   width: 100%;
-   }
-   #navbar ul {
-   display: flex;
-   padding: 0;
-   margin: 0;
-   list-style-type: none;
-   justify-content: space-evenly;
-   }
-   #navbar li {
-   padding-top: 10px;
-   }
-   /* navigation links*/
-   #navbar li a {
-   color: #FFFFFF;
-   /* navbar text color */
-   font-weight: 800;
-   text-decoration: none;
-   /* this removes the underline */
-   }
-   /* navigation link when a link is hovered over */
-   #navbar li a:hover {
-   color: #FFFFFF;
-   text-decoration: underline;
-   }
-   #flex {
-   display: flex;
-   }
-   /* this colors BOTH sidebars
-   if you want to style them separately,
-   create styles for #leftSidebar and #rightSidebar */
-   aside {
-   background-color: #0B0B0B;
-   width: 200px;
-   padding: 20px;
-   font-size: smaller;
-   /* this makes the sidebar text slightly smaller */
-   }
-   /* this is the color of the main content area,
-   between the sidebars! */
-   main {
-   background-color: #0B0B0B;
-   flex: 1;
-   padding: 20px;
-   order: 2;
-   }
-   /* what's this "order" stuff about??
-   allow me to explain!
-   if you're using both sidebars, the "order" value
-   tells the CSS the order in which to display them.
-   left sidebar is 1, content is 2, and right sidebar is 3! */
-   footer {
-   background-color: #0B0B0B;
-   /* background color for footer */
-   width: 100%;
-   height: 40px;
-   padding: 10px;
-   text-align: center;
-   /* this centers the footer text */ 
-   }
-   h1,
-   h2,
-   h3 {
-   color: #FFFFFF;
-   }
-   h1 {
-   font-size: 25px;
-   }
-   strong {
-   /* this styles bold text */
-   color: #FFFFFF;
-   }
-   /* this is just a cool box, it's the darker colored one */
-   .box {
-   background-color: #0B0B0B;
-   border: 1px solid #FFFFFF;
-   padding: 10px;
-   }
-   /* CSS for extras */
-   #topBar {
-   width: 100%;
-   height: 30px;
-   padding: 10px;
-   font-size: smaller;
-   background-color: #0B0B0B;
-   }
-   /* Add a CSS reset to remove default margins and padding */
-   html, body {
-   margin: 0;
-   padding: 0;
-   }
-   /* BELOW THIS POINT IS MEDIA QUERY */
-   /* so you wanna change the width of your page? 
-   by default, the container width is 900px.
-   in order to keep things responsive, take your new height,
-   and then subtrack it by 100. use this new number as the 
-   "max-width" value below
-   */
-/* BELOW THIS POINT IS MEDIA QUERY */
+
+a {
+  color: var(--text);
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: var(--text);
+}
+
+h1 {
+  font-size: 25px;
+}
+
+strong {
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ============================================================
+   Layout
+   ============================================================ */
+#container {
+  max-width: var(--container-width);
+  width: 100%;
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--surface);
+  background-image: var(--header-image);
+  background-size: 100%;
+}
+
+#navbar {
+  height: var(--navbar-height);
+  background-color: var(--surface);
+  width: 100%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+}
+
+#navbar li a {
+  color: var(--text);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  text-decoration: underline;
+}
+
+#flex {
+  display: flex;
+}
+
+aside {
+  background-color: var(--surface);
+  width: var(--sidebar-width);
+  padding: 20px;
+  font-size: smaller;
+  flex-shrink: 0;
+}
+
+aside ul {
+  padding-left: 10px;
+  list-style: none;
+}
+
+aside h3 {
+  margin-bottom: 8px;
+}
+
+main {
+  background-color: var(--surface);
+  flex: 1;
+  padding: 20px;
+  order: 2;
+  min-width: 0;
+}
+
+footer {
+  background-color: var(--surface);
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+footer img {
+  border: 0;
+  vertical-align: middle;
+}
+
+/* ============================================================
+   Components
+   ============================================================ */
+.box {
+  background-color: var(--surface);
+  border: 1px solid var(--text);
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.updates-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.updates-list li {
+  margin-bottom: 8px;
+}
+
+/* Blog list */
+.blog-summary {
+  margin-bottom: 24px;
+}
+
+.blog-summary h3 {
+  margin-bottom: 4px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+/* Image gallery */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: 600px;
+  margin-top: 16px;
+}
+
+.image-container img {
+  max-width: 30%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* ============================================================
+   Responsive
+   ============================================================ */
 @media only screen and (max-width: 800px) {
   #flex {
     flex-wrap: wrap;
   }
-  
+
   aside {
     width: 100%;
-  }
-
-  #leftSidebar {
     order: 2;
   }
 
   main {
     order: 1;
+    width: 100%;
   }
 
   #navbar ul {
     flex-wrap: wrap;
+    height: auto;
+    padding: 4px 0;
   }
 
   .image-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
   .image-container img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    height: auto;
+    max-width: 60%;
+    max-height: none;
   }
 }
-   }
-
